@@ -1,11 +1,17 @@
 "use client";
 import Link from "next/link";
-import React, { useState } from "react";
+import { usePathname } from "next/navigation";
+import React, { useEffect, useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { LiaTimesSolid } from "react-icons/lia";
 
 const NavItem = () => {
   const [toggleNavItem, setToggleNavItem] = useState<boolean>(false);
+  const pathname = usePathname();
+
+  useEffect(() => {
+    setToggleNavItem(false);
+  }, [pathname]);
 
   return (
     <div className="w-auto ">

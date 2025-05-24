@@ -3,7 +3,7 @@ import Button from "../ui/Button";
 
 const Hero = () => {
   return (
-    <div className="h-screen  w-full relative top-0 -mt-[100px] ">
+    <div className="h-screen  w-full relative top-0 -mt-[95px] ">
       <div className="absolute w-full h-screen after:content-[''] after:absolute after:top-0 after:left-0 after:w-full after:h-full after:bg-gray-950/50 after:z-10">
         <video
           src="/hero.mp4"

@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Benefits = () => {
   return (
-    <div className="w-full px-5 lg:px-0 lg:max-w-7xl mx-auto mt-0 lg:mt-24">
+    <div className="w-full px-5 lg:px-0 lg:max-w-7xl mx-auto mt-0 mb-24 lg:my-24">
       <header className="mt-16 lg:mt-0">
         <div>
           <h5 className="text-gray-500 text-lg">
