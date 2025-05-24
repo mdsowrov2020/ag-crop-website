@@ -16,7 +16,7 @@ export default function ProductsPage() {
       </section>
 
       {/* Filter + Product Grid */}
-      <section className="grid grid-cols-1 lg:grid-cols-4 gap-10">
+      {/* <section className="grid grid-cols-1 lg:grid-cols-4 gap-10">
         <div className="lg:col-span-1">
           <ProductFilter />
         </div>
@@ -24,7 +24,16 @@ export default function ProductsPage() {
         <Suspense fallback={<p>Loading products...</p>}>
           <ProductsContent />
         </Suspense>
-      </section>
+      </section> */}
+
+      <Suspense fallback={<p>Loading products...</p>}>
+        <section className="grid grid-cols-1 lg:grid-cols-4 gap-10">
+          <div className="lg:col-span-1">
+            <ProductFilter />
+          </div>
+          <ProductsContent />
+        </section>
+      </Suspense>
 
       {/* CTA */}
       <section className="text-center mt-24">
