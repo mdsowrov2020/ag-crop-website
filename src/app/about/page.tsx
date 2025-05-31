@@ -3,9 +3,7 @@ import { HiOutlineArrowCircleRight } from "react-icons/hi";
 
 export default function AboutPage() {
   return (
-    <main className="bg-white">
-      {/* Hero Section */}
-
+    <main>
       <div className="w-full px-5 lg:px-0 lg:max-w-7xl mx-auto pt-16 ">
         <header>
           <h1 className="text-3xl w-full pr-10 lg:pr-0 lg:text-7xl lg:w-[85%] text-left font-medium  text-gray-700">
@@ -43,7 +41,7 @@ export default function AboutPage() {
 
         <div className="space-y-8  flex flex-col justify-center items-center">
           {/* Mission Card */}
-          <div className="bg-gray-100 md:-ml-[22%]  p-6   max-w-2xl">
+          <div className="bg-gray-200 md:-ml-[22%]  p-6   max-w-2xl">
             <h3 className="text-xl font-semibold text-gray-800 mb-2">
               Our Mission
             </h3>
@@ -55,7 +53,7 @@ export default function AboutPage() {
           </div>
 
           {/* Vision Card with Responsive Left Offset */}
-          <div className="bg-gray-100    p-6  max-w-2xl mx-auto md:ml-[35%]">
+          <div className="bg-gray-200    p-6  max-w-2xl mx-auto md:ml-[35%]">
             <h3 className="text-xl font-semibold text-gray-800 mb-2">
               Our Vision
             </h3>
@@ -155,7 +153,7 @@ export default function AboutPage() {
         </div>
 
         {/* CTA */}
-        <div className="text-center">
+        <div className="text-center mb-16">
           <h3 className="text-2xl font-bold text-green-800">
             Grow with AgroCrop
           </h3>
