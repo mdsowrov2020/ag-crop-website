@@ -5,7 +5,7 @@ import React from "react";
 
 const Logo = () => {
   return (
-    <div className="flex items-center">
+    <div>
       <Link
         href="/"
         className="font-bold text-2xl text-gray-50 flex items-center"
